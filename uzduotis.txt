@@ -1,0 +1,112 @@
+/*
+ * 1 Užduotis (if/else)
+ * 
+ * Percentage >= 90% : Grade A
+ * Percentage >= 80% : Grade B
+ * Percentage >= 70% : Grade C
+ * Percentage >= 60% : Grade D
+ * Percentage >= 40% : Grade E
+ * Percentage < 40%  : Grade F
+*/
+
+/*
+ * 2 Užduotis (switch/case)
+ * 
+ * Percentage >= 90% : Grade A
+ * Percentage >= 80% : Grade B
+ * Percentage >= 70% : Grade C
+ * Percentage >= 60% : Grade D
+ * Percentage >= 40% : Grade E
+ * Percentage < 40%  : Grade F
+ * 
+*/
+
+/*
+ * 3 Užduotis (functions)
+ * 
+ * Parašyti funkciją, kuri sudeda du skaičius su sąlygom:
+ * Jeigu atsakymas didesnis už 10, funkcija turi grąžinti pranešimą "Atsakymas didesnis už 10".
+ * Jeigu įvesti skaičiai yra lygūs, funkcija turi grąžinti pranešimą "Veiksmas negalimas".
+ * Jeigu atsakymas yra tarp 20 ir 30 arba tarp 50 ir 60, funkcija turi grąžinti pranešimą "Sėkmigai įvykdytą".
+*/
+
+/*
+ * 4 Užduotis (objects)
+ * 
+ * Parodykite 2 būdus, kaip galime atspausdinti "boeing" reikšmę
+ * 
+*/
+
+/*
+ * 5 Užduotis (objects)
+ * 
+ * Sukurkite funkciją objekte, kuri sudėtų "firstName" ir "lastName" savybes ir išspauzdintų pranešimą: 
+ * 
+ * Sveiki, mano vardas Jonas Jonaitis
+ * 
+*/
+
+const person = {
+  firstName: 'Jonas',
+  lastName: 'Jonaitis',
+  vehicles: {
+    car: "BMW",
+    airlines: {
+      boeing: "777"
+    }
+  }
+}
+
+/*
+ * 5 Užduotis (arrays)
+ * 
+ * 7.1 Sukurkite masyvą [1, 2, 3, 4, 5]
+ * 7.2 Pridėkite skaičių 0 į masyvo pradžią
+ * 7.3 Pridėkite skaičių 6 į masyvo pabaigą
+ * 
+*/
+
+/*
+ * 6 Užduotis (arrays)
+ * 
+ * Išfiltruokite užbaigtas užduotis (isCompleted)
+*/
+
+/*
+ * 7 Užduotis (arrays)
+ * 
+ * Naudodamiesi "map", sukonstruokite naują masyvą, kuris atrodytų taip:
+ * 
+ * [
+ *   {
+ *      text: "1",
+ *      isCompleted: "Ne"
+ *   },
+ *   {
+ *      text: "2",
+ *      isCompleted: "Ne"
+ *   },
+ *   {
+ *      text: "3",
+ *      isCompleted: "Taip"
+ *   }
+ * ]
+*/
+
+const tasks = [
+  {
+    id: 1,
+    text: 'One',
+    isCompleted: false
+  },
+  {
+    id: 2,
+    text: 'Two',
+    isCompleted: false
+  },
+  {
+    id: 3,
+    text: 'Three',
+    isCompleted: true
+  }
+];
