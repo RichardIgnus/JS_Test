@@ -115,8 +115,8 @@ console.log(person['vehicles']['airlines']['boeing']);
 */
 
 const array = [1, 2, 3, 4, 5];
-array.push("6");
-array.unshift("0");
+array.push(6);
+array.unshift(0);
 
 console.log(array);
 
@@ -146,7 +146,7 @@ const tasks = [
 ];
 
 function checkIsComplete(task) {
-    return task.isCompleted === true;
+    return task.isCompleted;
 }
 
 const result = tasks.filter(checkIsComplete);
@@ -172,8 +172,6 @@ console.log(result);
  *   }
  * ]
 */
-
-
 
 
 const newTask = tasks.map(task => ({text: `${task.id}`, isCompleted: task.isCompleted ? 'Taip' : 'Ne'}));
